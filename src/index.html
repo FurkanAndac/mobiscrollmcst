@@ -27,6 +27,7 @@
     }
   </script>-->
 
+  <link rel="stylesheet" href="lib/mobiscroll/css/mobiscroll.min.css">
   <link href="build/main.css" rel="stylesheet">
 
 </head>
@@ -44,6 +45,20 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCur4yGPQJ94DEmepxOpT7sIxH45tiJjC8",
+    authDomain: "mobiscroll-15be7.firebaseapp.com",
+    databaseURL: "https://mobiscroll-15be7.firebaseio.com",
+    projectId: "mobiscroll-15be7",
+    storageBucket: "mobiscroll-15be7.appspot.com",
+    messagingSenderId: "570295222166"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </body>
 </html>
